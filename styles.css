@@ -228,6 +228,14 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
   padding: 0 3px;
   margin: 0 1px;
 }
+.slogan-strike {
+  text-decoration: line-through;
+  text-decoration-color: var(--primary-dk);
+  text-decoration-thickness: 3px;
+  color: var(--text-secondary);
+  font-weight: 900;
+  margin-right: 2px;
+}
 .intro-slogan-sub {
   margin: 4px 0 0;
   font-size: clamp(12px, 3.3vw, 14px);
