@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PETTI · 动物塑图鉴 2/2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 1080px; height: 1440px; overflow: hidden; background: #FFFFFF;
+      font-family: 'HarmonyOS Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif; color: #1A1A1A;
+    }
+    .frame { position: absolute; inset: 0; padding: 44px 50px 40px; display: flex; flex-direction: column; }
+
+    .head { text-align: center; margin-bottom: 20px; }
+    .logo {
+      font-family: 'Press Start 2P', monospace; font-size: 66px; letter-spacing: 0.06em;
+      -webkit-text-stroke: 3px #1A1A1A; text-shadow: 6px 6px 0 #C084FC; margin-bottom: 10px;
+      line-height: 1; font-weight: 900;
+    }
+    .sub-row { display: flex; justify-content: center; align-items: center; gap: 14px; margin-bottom: 8px; }
+    .sub { font-size: 38px; font-weight: 900; letter-spacing: 0.04em; }
+    .page-badge {
+      background: #1A1A1A; color: #FFF; font-family: 'Press Start 2P', monospace;
+      font-size: 18px; padding: 8px 18px; border-radius: 999px; letter-spacing: 0.1em;
+      box-shadow: 3px 3px 0 #C084FC;
+    }
+    .count { font-size: 22px; color: #666; letter-spacing: 0.1em; font-weight: 600; }
+
+    .grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 16px;
+    }
+    .cell {
+      background: #FFF; border: 4px solid #1A1A1A; box-shadow: 6px 6px 0 #1A1A1A;
+      border-radius: 20px; padding: 12px 10px; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; overflow: hidden;
+    }
+    .cell:nth-child(2n) { box-shadow: 6px 6px 0 #C084FC; }
+
+    .pic { width: 150px; height: 150px; display: grid; place-items: center; margin-bottom: 8px; }
+    .pic img { width: 100%; height: 100%; object-fit: contain; image-rendering: auto; }
+
+    .code {
+      font-family: 'Press Start 2P', monospace; font-size: 18px; font-weight: 900;
+      letter-spacing: 0.06em; color: #1A1A1A; margin-bottom: 6px;
+    }
+    .breed { font-size: 22px; font-weight: 700; letter-spacing: 0.04em; color: #1A1A1A; }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="head">
+      <div class="logo">PETTI</div>
+      <div class="sub-row">
+        <div class="sub">动物塑图鉴</div>
+        <div class="page-badge">2 / 2</div>
+      </div>
+      <div class="count">24 种动物 · 总有一种是你</div>
+    </div>
+
+    <div class="grid">
+      <div class="cell"><div class="pic"><img src="../images/brown_bear.png" alt=""></div><div class="code">HEFT</div><div class="breed">棕熊</div></div>
+      <div class="cell"><div class="pic"><img src="../images/cow.png" alt=""></div><div class="code">CHEW</div><div class="breed">奶牛</div></div>
+      <div class="cell"><div class="pic"><img src="../images/hamster.png" alt=""></div><div class="code">STASH</div><div class="breed">仓鼠</div></div>
+
+      <div class="cell"><div class="pic"><img src="../images/angora.png" alt=""></div><div class="code">NOBLE</div><div class="breed">安哥拉猫</div></div>
+      <div class="cell"><div class="pic"><img src="../images/alpaca.png" alt=""></div><div class="code">MEH</div><div class="breed">羊驼</div></div>
+      <div class="cell"><div class="pic"><img src="../images/wolf.png" alt=""></div><div class="code">LONE</div><div class="breed">狼</div></div>
+
+      <div class="cell"><div class="pic"><img src="../images/kitsune.png" alt=""></div><div class="code">WISH</div><div class="breed">三尾狐</div></div>
+      <div class="cell"><div class="pic"><img src="../images/polar_bear.png" alt=""></div><div class="code">FROST</div><div class="breed">北极熊</div></div>
+      <div class="cell"><div class="pic"><img src="../images/koala.png" alt=""></div><div class="code">DOZE</div><div class="breed">考拉</div></div>
+
+      <div class="cell"><div class="pic"><img src="../images/panda.png" alt=""></div><div class="code">LAZY</div><div class="breed">熊猫</div></div>
+      <div class="cell"><div class="pic"><img src="../images/night_beast.png" alt=""></div><div class="code">VOID</div><div class="breed">暗夜兽</div></div>
+      <div class="cell"><div class="pic"><img src="../images/hedgehog.png" alt=""></div><div class="code">GUARD</div><div class="breed">刺猬</div></div>
+    </div>
+  </div>
+</body>
+</html>
