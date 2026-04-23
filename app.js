@@ -820,7 +820,7 @@
       const scale = (window.devicePixelRatio && window.devicePixelRatio > 1) ? 2 : 1;
       // Step 5: capture via html2canvas (direct CSS-to-canvas paint, no SVG detour)
       const canvas = await window.html2canvas(el.viewResult, {
-        backgroundColor: '#FFF8EE',
+        backgroundColor: '#FFFFFF',
         scale: scale,
         useCORS: true,
         allowTaint: false,

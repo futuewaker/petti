@@ -980,6 +980,14 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
 .result-capturing .result-footer-note {
   display: none !important;
 }
+/* Disable tag fade-in animation during capture — html2canvas reads computed
+   style which can be mid-animation (opacity < 1) causing tags to vanish in
+   the saved screenshot. Force final state. */
+.result-capturing .tag {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
 .result-capturing.view-result,
 .result-capturing.view {
   background: var(--bg) !important;
