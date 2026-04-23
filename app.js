@@ -846,7 +846,7 @@
           await navigator.share({
             files: [file],
             title: 'PETTI · 宠格测试',
-            text: '我的本命宠物是 ' + (pet.name_title || '') + ' ' + (pet.name || '')
+            text: '本命动物给我写信了: ' + (pet.name_title || '') + ' ' + (pet.name || '')
           });
           shared = true;
         }

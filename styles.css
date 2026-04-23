@@ -1,16 +1,16 @@
 /* ===========================================================
-   CATTI · 猫格测试 — styles.css
+   PETTI · 宠格测试 — styles.css
    极简像素风 · Minimalist Pixel Aesthetic v2
    =========================================================== */
 
 :root {
-  --primary:     #A855F7;    /* 糖果紫，主色 */
-  --primary-dk:  #7C3AED;    /* 深紫，hover/pressed/强调 */
-  --primary-lt:  #C084FC;    /* 浅紫，次要高亮 */
+  --primary:     #C084FC;    /* 浅糖果紫，主色 */
+  --primary-dk:  #A855F7;    /* 糖果紫，hover/pressed/强调 */
+  --primary-lt:  #DDD6FE;    /* 极浅紫，次要高亮 */
   --accent:      #FBBF24;    /* 亮黄，徽章/标签高亮 */
   --shadow:      #000;       /* 黑描边 + 黑阴影 */
-  --bg: #FEFCE8;             /* 奶油米白底 */
-  --bg-soft: #FAF5FF;        /* 极淡紫底 */
+  --bg: #FFFFFF;             /* 纯白底 */
+  --bg-soft: #FAF5FF;        /* 极淡紫底,卡片内衬 */
   --surface: #F4F4F4;
   --surface-hover: #EBEBEB;
   --surface-strong: #E8E8E8;
