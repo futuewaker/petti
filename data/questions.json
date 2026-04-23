@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "dim": "EI",
+    "text": "公司团建 KTV 环节终于到了,包厢灯光刚亮起来,服务员把麦递过来让大家自我介绍,你这时候的状态——",
+    "scenario_emoji": "🎤",
+    "bubble": "气氛组还是墙角组",
+    "avatar": "images/husky.png",
+    "options": [
+      {
+        "label": "麦一到手就开唱,顺带 cue 所有人,一晚上全场气氛靠我",
+        "score": 1,
+        "pets": ["husky", "lion_cub", "pony", "pig", "squirrel"]
+      },
+      {
+        "label": "不主动但不拒绝,别人点我我就来一首,配合得体",
+        "score": 0,
+        "pets": ["penguin", "weasel", "fox", "deer", "cowcat"]
+      },
+      {
+        "label": "提前研究好沙发最深的角落,最好三小时没人发现我存在",
+        "score": -1,
+        "pets": ["hamster", "polar_bear", "koala", "night_beast", "hedgehog"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "dim": "EI",
+    "text": "你走在大街上,一只看起来刚失恋的流浪狗蹲在路边对你哼哼唧唧,明显想聊两句,你——",
+    "scenario_emoji": "🐕",
+    "bubble": "陌生灵魂求互动时刻",
+    "avatar": "images/pony.png",
+    "options": [
+      {
+        "label": "当场蹲下陪它 talk,顺便给它讲一段我的情感史",
+        "score": 1,
+        "pets": ["husky", "pony", "pig", "squirrel", "sheep"]
+      },
+      {
+        "label": "远远对上眼,微微一笑表示知道了,但不会停下来",
+        "score": 0,
+        "pets": ["lion_cub", "penguin", "red_panda", "deer", "brown_bear"]
+      },
+      {
+        "label": "立刻假装没看见,绕路离开,我怕它误以为找到了知己",
+        "score": -1,
+        "pets": ["angora", "alpaca", "wolf", "polar_bear", "night_beast", "hedgehog"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "dim": "EI",
+    "text": "周六晚上八点,三个群同时艾特你出来吃饭,你发现窗外在下雨,你的内心 OS——",
+    "scenario_emoji": "🌧️",
+    "bubble": "社交电量剩多少",
+    "avatar": "images/polar_bear.png",
+    "options": [
+      {
+        "label": "三场都去!雨天更有氛围,路上还能顺便逛街",
+        "score": 1,
+        "pets": ["husky", "lion_cub", "pony", "pig"]
+      },
+      {
+        "label": "挑一个最顺路的应付一下,剩下的下次补,都是朋友不至于",
+        "score": 0,
+        "pets": ["penguin", "weasel", "deer", "cowcat", "sheep"]
+      },
+      {
+        "label": "群里各自编一个不一样的理由,今晚只想一个人窝在家",
+        "score": -1,
+        "pets": ["hamster", "angora", "wolf", "polar_bear", "koala", "panda", "hedgehog"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "dim": "PL",
+    "text": "凌晨三点四十七分你突然醒了,脑子里冒出一个\"我要不要现在就去把明天要交的 PPT 写完\"的念头,你的行动——",
+    "scenario_emoji": "🌙",
+    "bubble": "深夜突发行动力测试",
+    "avatar": "images/lion_cub.png",
+    "options": [
+      {
+        "label": "起床就开电脑,打开 Word 开始噼里啪啦,凌晨三点的我最 powerful",
+        "score": 1,
+        "pets": ["husky", "lion_cub", "squirrel", "weasel", "wolf"]
+      },
+      {
+        "label": "想了一下又躺下,明天再说,但这个念头可能会循环播放四十分钟",
+        "score": 0,
+        "pets": ["penguin", "red_panda", "deer", "cowcat", "kitsune", "night_beast", "hedgehog"]
+      },
+      {
+        "label": "闭眼继续睡,PPT 是明天的我的事情,跟现在的我没关系",
+        "score": -1,
+        "pets": ["pig", "sheep", "cow", "hamster", "alpaca", "koala", "panda"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "dim": "PL",
+    "text": "朋友发来消息说\"我想开一家奶茶店,你觉得靠不靠谱\",你发现 ta 其实还在犹豫,你——",
+    "scenario_emoji": "🧋",
+    "bubble": "劝动还是劝住",
+    "avatar": "images/weasel.png",
+    "options": [
+      {
+        "label": "立刻甩给 ta 一份我三天前随手写的开店 checklist,附带选址分析",
+        "score": 1,
+        "pets": ["lion_cub", "pony", "squirrel", "weasel", "fox"]
+      },
+      {
+        "label": "帮 ta 理理思路,提几个关键问题,最后还是 ta 自己决定",
+        "score": 0,
+        "pets": ["husky", "deer", "brown_bear"]
+      },
+      {
+        "label": "劝 ta 别冲动,开店水深,不如先去打工半年熟悉行情",
+        "score": -1,
+        "pets": ["sheep", "cow", "hamster", "angora", "alpaca", "koala", "panda"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "dim": "PL",
+    "text": "路过一个街头义卖摊,摊主说\"买一个就能救一只流浪小动物\",你第一反应——",
+    "scenario_emoji": "💰",
+    "bubble": "先动手还是先观察",
+    "avatar": "images/squirrel.png",
+    "options": [
+      {
+        "label": "秒付钱抱走一个,能救一只是一只,犹豫就会败北",
+        "score": 1,
+        "pets": ["husky", "pony", "squirrel", "weasel", "red_panda"]
+      },
+      {
+        "label": "先看看东西值不值,摊位是不是正规,想清楚再决定",
+        "score": 0,
+        "pets": ["fox", "kitsune", "night_beast"]
+      },
+      {
+        "label": "手机查一查这种摊位靠不靠谱,等我查完可能摊都收了",
+        "score": -1,
+        "pets": ["pig", "cow", "hamster", "angora", "polar_bear", "panda", "hedgehog"]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "dim": "TF",
+    "text": "你最好的朋友哭着跟你讲 ta 男友劈腿,一边哭一边说\"我是不是真的太烂了,才会被这样对待\",你第一反应——",
+    "scenario_emoji": "💧",
+    "bubble": "共情还是开机解决",
+    "avatar": "images/fox.png",
+    "options": [
+      {
+        "label": "上来就分析:是 ta 的问题不是你的,理清楚后我们下一步做什么",
+        "score": 1,
+        "pets": ["penguin", "fox", "angora", "wolf", "polar_bear"]
+      },
+      {
+        "label": "先抱一下,再听完,然后陪 ta 说两句理性的",
+        "score": 0,
+        "pets": ["lion_cub", "weasel", "deer", "cowcat", "brown_bear", "alpaca"]
+      },
+      {
+        "label": "一起哭,当场眼泪掉得比 ta 还多,分析啥的明天再说",
+        "score": -1,
+        "pets": ["husky", "pony", "pig", "sheep", "kitsune", "night_beast", "hedgehog"]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "dim": "TF",
+    "text": "买东西时店员找你多找了二十块,你注意到了,此时你——",
+    "scenario_emoji": "💵",
+    "bubble": "理性还是感性",
+    "avatar": "images/fox.png",
+    "options": [
+      {
+        "label": "理性判断:这是 ta 的失误,退给 ta 才不会影响 ta 今晚的班",
+        "score": 1,
+        "pets": ["lion_cub", "penguin", "fox", "angora", "wolf", "polar_bear"]
+      },
+      {
+        "label": "想一下店员看起来像不像会因此挨骂,再决定要不要说",
+        "score": 0,
+        "pets": ["weasel", "cowcat", "deer", "brown_bear", "kitsune"]
+      },
+      {
+        "label": "看 ta 那么忙,心里过意不去,立马退回去并多买一瓶水",
+        "score": -1,
+        "pets": ["husky", "pony", "pig", "red_panda", "sheep", "hamster", "koala"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "dim": "TF",
+    "text": "你走在街上,一位萌萌的小女孩蹦蹦跳跳朝你走来(正脸侧脸都萌,用各大手机拍都萌的那种),她递给你一根棒棒糖,你的第一反应——",
+    "scenario_emoji": "🍭",
+    "bubble": "纯良还是警觉",
+    "avatar": "images/red_panda.png",
+    "options": [
+      {
+        "label": "理性判断:不接陌生人给的东西,这是最基本的安全常识",
+        "score": 1,
+        "pets": ["fox", "alpaca", "wolf", "polar_bear", "brown_bear"]
+      },
+      {
+        "label": "接下但不吃,笑一下谢谢就走,回家默默丢了",
+        "score": 0,
+        "pets": ["weasel", "angora", "hamster", "hedgehog", "night_beast"]
+      },
+      {
+        "label": "呜呜她好可爱!开心地收下还给她比心,回家就吃",
+        "score": -1,
+        "pets": ["husky", "pony", "pig", "red_panda", "sheep", "cowcat", "koala", "panda"]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "dim": "KS",
+    "text": "你决定周末要做一件你一直想做的事(比如爬山、搬家、学画画),此时你——",
+    "scenario_emoji": "🗓️",
+    "bubble": "说干就干 vs 永远在准备",
+    "avatar": "images/pony.png",
+    "options": [
+      {
+        "label": "直接打开表格开始列 todo,时间、预算、步骤、plan B 全部安排好",
+        "score": 1,
+        "pets": ["husky", "pony", "squirrel", "weasel"]
+      },
+      {
+        "label": "心里大致有个谱,周五再定最终方案,边走边调整",
+        "score": 0,
+        "pets": ["lion_cub", "red_panda", "deer", "cowcat", "kitsune"]
+      },
+      {
+        "label": "想是想,但到了那天也许就变成想做另一件事了,随缘",
+        "score": -1,
+        "pets": ["pig", "sheep", "brown_bear", "cow", "hamster", "alpaca", "koala", "panda"]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "dim": "KS",
+    "text": "你家书架和衣柜的状态,最像——",
+    "scenario_emoji": "📚",
+    "bubble": "秩序型还是随性型",
+    "avatar": "images/angora.png",
+    "options": [
+      {
+        "label": "书按颜色和尺寸,衣服按季节和场合分区,一目了然",
+        "score": 1,
+        "pets": ["pony", "penguin", "squirrel", "fox", "angora", "wolf"]
+      },
+      {
+        "label": "大致分类就行,具体找不找得到看运气",
+        "score": 0,
+        "pets": ["red_panda", "cowcat", "brown_bear", "kitsune"]
+      },
+      {
+        "label": "什么架不架柜不柜,堆起来能找到就好,乱中有我自己的秩序",
+        "score": -1,
+        "pets": ["cow", "alpaca", "polar_bear", "koala", "panda", "night_beast"]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "dim": "KS",
+    "text": "饭点到了,你和朋友说\"随便吃什么都行\",朋友说\"那你决定\",你——",
+    "scenario_emoji": "🍱",
+    "bubble": "决策力 vs 随缘派",
+    "avatar": "images/wolf.png",
+    "options": [
+      {
+        "label": "立刻掏出三家备选,投票五秒出结果,高效到让人想鼓掌",
+        "score": 1,
+        "pets": ["lion_cub", "squirrel", "weasel", "fox", "wolf", "angora"]
+      },
+      {
+        "label": "想一下附近有什么,再问一下 ta 今天什么胃口,综合决定",
+        "score": 0,
+        "pets": ["penguin", "deer", "cowcat", "hamster", "night_beast"]
+      },
+      {
+        "label": "\"真的都可以\",然后两个人在店门口站了二十分钟",
+        "score": -1,
+        "pets": ["pig", "sheep", "cow", "alpaca", "polar_bear", "koala", "panda", "hedgehog"]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "dim": "MD",
+    "text": "你的恋爱对象是一个尊老爱幼、温柔敦厚、洁身自好、光明磊落、大义凛然、深情专一、能言善辩、颜值在线的人,你——",
+    "scenario_emoji": "💘",
+    "bubble": "爱就爱到底还是保持距离",
+    "avatar": "images/kitsune.png",
+    "options": [
+      {
+        "label": "非常非常珍惜 ta,可能会变成恋爱脑,天天给 ta 写小作文",
+        "score": 1,
+        "pets": ["sheep", "kitsune", "night_beast", "hedgehog"]
+      },
+      {
+        "label": "会介于 A 和 C 之间,享受关系但保留一点自我空间",
+        "score": 0,
+        "pets": ["pony", "squirrel", "red_panda", "deer", "cowcat", "cow", "koala"]
+      },
+      {
+        "label": "就算 ta 再优秀我也不会陷太深,我还有自己的事要忙",
+        "score": -1,
+        "pets": ["lion_cub", "penguin", "fox", "angora", "alpaca", "wolf", "panda"]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "dim": "MD",
+    "text": "喜欢的人连续三天没回你消息,但你看到 ta 朋友圈更新了新照片,你——",
+    "scenario_emoji": "📱",
+    "bubble": "追问还是淡定",
+    "avatar": "images/kitsune.png",
+    "options": [
+      {
+        "label": "直接去问 ta 是不是对我没兴趣了,不如挑明,我情绪值满了",
+        "score": 1,
+        "pets": ["husky", "pig", "sheep", "kitsune", "hedgehog", "cowcat"]
+      },
+      {
+        "label": "默默观察几天,想 ta 又不想打扰,反复编辑消息然后删掉",
+        "score": 0,
+        "pets": ["squirrel", "red_panda", "deer", "hamster", "weasel", "night_beast"]
+      },
+      {
+        "label": "没什么,ta 忙 ta 的,我过我的,说不定下次 ta 主动来找",
+        "score": -1,
+        "pets": ["lion_cub", "penguin", "fox", "brown_bear", "angora", "alpaca", "wolf", "polar_bear"]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "dim": "MD",
+    "text": "你的朋友刚谈恋爱就开始天天晒糖,发朋友圈九宫格起步,甚至给对方设了专属皮肤,你——",
+    "scenario_emoji": "💕",
+    "bubble": "是又酸又羡慕还是泰然处之",
+    "avatar": "images/kitsune.png",
+    "options": [
+      {
+        "label": "心里咯噔一下,然后偷偷回看自己单身三年的朋友圈又难过十分钟",
+        "score": 1,
+        "pets": ["kitsune", "night_beast", "hedgehog", "red_panda", "cowcat", "hamster"]
+      },
+      {
+        "label": "给 ta 点个赞,心里想\"真好\",然后该干嘛干嘛",
+        "score": 0,
+        "pets": ["pony", "squirrel", "brown_bear"]
+      },
+      {
+        "label": "点赞都省了,恋爱这种事各有各的幸福与我无关",
+        "score": -1,
+        "pets": ["penguin", "fox", "angora", "alpaca", "wolf", "cow", "polar_bear", "panda"]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "dim": "NZ",
+    "text": "你发了一条朋友圈,十分钟内没人点赞,你——",
+    "scenario_emoji": "📭",
+    "bubble": "内耗警报响没响",
+    "avatar": "images/hedgehog.png",
+    "options": [
+      {
+        "label": "立刻删掉重新发,或者开始反思是不是文案不够吸引人",
+        "score": 1,
+        "pets": ["kitsune", "night_beast", "hedgehog", "hamster", "red_panda", "cowcat"]
+      },
+      {
+        "label": "有点疑惑,但过一小时再刷,有赞最好没有就算了",
+        "score": 0,
+        "pets": ["penguin", "pony", "weasel", "deer", "sheep", "fox", "angora"]
+      },
+      {
+        "label": "发完就扔下手机,十分钟我连忘了我发过都有可能",
+        "score": -1,
+        "pets": ["husky", "lion_cub", "pig", "alpaca", "wolf", "polar_bear", "panda", "cow"]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "dim": "NZ",
+    "text": "同事在群里开玩笑 @了你一下,大家笑得很热闹,你隐约觉得那玩笑有点刺,此时你——",
+    "scenario_emoji": "👀",
+    "bubble": "钝感派 vs 过敏派",
+    "avatar": "images/hedgehog.png",
+    "options": [
+      {
+        "label": "回家路上反复 replay 那句话,越想越觉得不对劲,一晚上睡不着",
+        "score": 1,
+        "pets": ["kitsune", "night_beast", "hedgehog", "hamster", "cowcat", "sheep"]
+      },
+      {
+        "label": "当场没反应,晚上洗澡想一下,第二天基本就忘了",
+        "score": 0,
+        "pets": ["penguin", "squirrel", "weasel", "deer", "fox", "red_panda"]
+      },
+      {
+        "label": "咦,有什么问题吗?开玩笑嘛,真没往心里去",
+        "score": -1,
+        "pets": ["husky", "lion_cub", "pig", "brown_bear", "polar_bear", "koala", "panda", "cow"]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "dim": "NZ",
+    "text": "关灯前的最后一分钟,你脑子里一般在——",
+    "scenario_emoji": "🌃",
+    "bubble": "睡前是哲学家还是昏迷者",
+    "avatar": "images/night_beast.png",
+    "options": [
+      {
+        "label": "复盘今天的每一次对话,思考\"我当时那句话是不是说错了\"",
+        "score": 1,
+        "pets": ["kitsune", "night_beast", "hedgehog", "hamster", "red_panda"]
+      },
+      {
+        "label": "随便想两下明天穿什么吃什么,几分钟后自然睡着",
+        "score": 0,
+        "pets": ["penguin", "pony", "squirrel", "deer", "fox", "sheep", "angora"]
+      },
+      {
+        "label": "关灯=断电,脑子是单线程,闭眼就睡",
+        "score": -1,
+        "pets": ["pig", "alpaca", "wolf", "brown_bear", "polar_bear", "koala", "panda", "cow"]
+      }
+    ]
+  }
+]
