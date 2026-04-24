@@ -464,7 +464,7 @@
     el.resultInterpretation.textContent = pet.interpretation || '';
 
     el.resultTags.innerHTML = '';
-    (pet.tags || []).slice(0, 4).forEach(function (t) {
+    (pet.tags || []).slice(0, 3).forEach(function (t) {
       const span = document.createElement('span');
       span.className = 'tag';
       span.textContent = t;

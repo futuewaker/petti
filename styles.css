@@ -640,7 +640,46 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
 /* ==========================================================
    RESULT
    ========================================================== */
-.view-result { padding-bottom: 40px; }
+.view-result { padding-bottom: 40px; position: relative; }
+
+/* Top-right 小红书 share button — navigates directly to the xhs post */
+.btn-xhs-share {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #FF2442;
+  color: #FFF;
+  border: 2px solid var(--text);
+  box-shadow: 3px 3px 0 var(--text);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s var(--ease-out), box-shadow 0.1s var(--ease-out);
+}
+.btn-xhs-share:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--text);
+}
+.btn-xhs-share .xhs-icon {
+  width: 14px; height: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  color: #FF2442;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 900;
+  font-family: 'Press Start 2P', monospace;
+}
 
 .result-top {
   display: flex;
@@ -788,8 +827,8 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
 
 .result-tags {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
   margin-bottom: 12px;
 }
 
@@ -844,17 +883,20 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
   color: var(--text);
   border: 2px solid var(--text);
   box-shadow: 3px 3px 0 var(--text);
-  padding: 14px 14px;
+  padding: 12px 6px;
   border-radius: 12px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
-  line-height: 1.4;
-  min-height: 56px;
+  line-height: 1.35;
+  min-height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: tagFade 0.4s var(--ease-out) both;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .tag:nth-child(2n) {
   box-shadow: 3px 3px 0 var(--primary);
@@ -985,7 +1027,8 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
 }
 .result-capturing .result-actions,
 .result-capturing .xhs-promo,
-.result-capturing .result-footer-note {
+.result-capturing .result-footer-note,
+.result-capturing .btn-xhs-share {
   display: none !important;
 }
 /* Disable tag fade-in animation during capture — html2canvas reads computed
