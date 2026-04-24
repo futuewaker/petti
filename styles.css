@@ -642,49 +642,35 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
    ========================================================== */
 .view-result { padding-bottom: 40px; position: relative; }
 
-/* Inline 小红书 CTA — placed between 宠格速评 and 宠格解读, encourages share */
-.btn-xhs-cta {
-  display: flex;
+/* Mini share button — right-aligned beneath 宠格速评 card */
+.quick-review-wrap { margin-bottom: 28px; }
+.quick-review-wrap .result-quick-review { margin-bottom: 8px; }
+.btn-share-mini {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: 100%;
-  background: var(--primary);
-  color: var(--text);
-  border: 2px solid var(--text);
-  box-shadow: 4px 4px 0 var(--text);
-  border-radius: 14px;
-  padding: 14px 16px;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  cursor: pointer;
-  margin-bottom: 28px;
-  transition: transform 0.1s var(--ease-out), box-shadow 0.1s var(--ease-out);
-}
-.btn-xhs-cta:active {
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0 var(--text);
-}
-.btn-xhs-cta-badge {
+  gap: 4px;
+  float: right;
   background: #FF2442;
   color: #FFF;
-  padding: 3px 8px;
-  border-radius: 6px;
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  border: 1.5px solid var(--text);
+  border: 2px solid var(--text);
+  box-shadow: 2px 2px 0 var(--text);
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s var(--ease-out), box-shadow 0.1s var(--ease-out);
 }
-.btn-xhs-cta-text {
-  flex: 1;
-  text-align: center;
+.btn-share-mini:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 var(--text);
 }
-.btn-xhs-cta-arrow {
-  font-size: 18px;
-  font-weight: 900;
-  line-height: 1;
+.quick-review-wrap::after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .result-top {
@@ -1034,7 +1020,7 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
 .result-capturing .result-actions,
 .result-capturing .xhs-promo,
 .result-capturing .result-footer-note,
-.result-capturing .btn-xhs-cta {
+.result-capturing .btn-share-mini {
   display: none !important;
 }
 /* Disable tag fade-in animation during capture — html2canvas reads computed
