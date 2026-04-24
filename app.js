@@ -467,7 +467,7 @@
     (pet.tags || []).slice(0, 3).forEach(function (t) {
       const span = document.createElement('span');
       span.className = 'tag';
-      span.textContent = t;
+      span.textContent = '#' + t;
       el.resultTags.appendChild(span);
     });
 

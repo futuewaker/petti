@@ -642,24 +642,24 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
    ========================================================== */
 .view-result { padding-bottom: 40px; position: relative; }
 
-/* Top-right 小红书 share button — navigates directly to the xhs post */
+/* Top-right corner share button — navigates directly to the xhs post */
 .btn-xhs-share {
   position: absolute;
-  top: 14px;
-  right: 16px;
+  top: 0;
+  right: 0;
   z-index: 20;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
   background: #FF2442;
   color: #FFF;
   border: 2px solid var(--text);
   box-shadow: 3px 3px 0 var(--text);
   border-radius: 999px;
-  padding: 6px 12px;
+  padding: 7px 14px;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   text-decoration: none;
   cursor: pointer;
   transition: transform 0.1s var(--ease-out), box-shadow 0.1s var(--ease-out);
@@ -667,18 +667,6 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
 .btn-xhs-share:active {
   transform: translate(2px, 2px);
   box-shadow: 1px 1px 0 var(--text);
-}
-.btn-xhs-share .xhs-icon {
-  width: 14px; height: 14px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: #FFF;
-  color: #FF2442;
-  border-radius: 4px;
-  font-size: 10px;
-  font-weight: 900;
-  font-family: 'Press Start 2P', monospace;
 }
 
 .result-top {
