@@ -642,31 +642,49 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
    ========================================================== */
 .view-result { padding-bottom: 40px; position: relative; }
 
-/* Top-right corner share button — navigates directly to the xhs post */
-.btn-xhs-share {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 20;
-  display: inline-flex;
+/* Inline 小红书 CTA — placed between 宠格速评 and 宠格解读, encourages share */
+.btn-xhs-cta {
+  display: flex;
   align-items: center;
   justify-content: center;
-  background: #FF2442;
-  color: #FFF;
+  gap: 8px;
+  width: 100%;
+  background: var(--primary);
+  color: var(--text);
   border: 2px solid var(--text);
-  box-shadow: 3px 3px 0 var(--text);
-  border-radius: 999px;
-  padding: 7px 14px;
-  font-size: 12px;
+  box-shadow: 4px 4px 0 var(--text);
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
+  margin-bottom: 28px;
   transition: transform 0.1s var(--ease-out), box-shadow 0.1s var(--ease-out);
 }
-.btn-xhs-share:active {
+.btn-xhs-cta:active {
   transform: translate(2px, 2px);
-  box-shadow: 1px 1px 0 var(--text);
+  box-shadow: 2px 2px 0 var(--text);
+}
+.btn-xhs-cta-badge {
+  background: #FF2442;
+  color: #FFF;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  border: 1.5px solid var(--text);
+}
+.btn-xhs-cta-text {
+  flex: 1;
+  text-align: center;
+}
+.btn-xhs-cta-arrow {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1;
 }
 
 .result-top {
@@ -1016,7 +1034,7 @@ img { display: block; max-width: 100%; image-rendering: pixelated; image-renderi
 .result-capturing .result-actions,
 .result-capturing .xhs-promo,
 .result-capturing .result-footer-note,
-.result-capturing .btn-xhs-share {
+.result-capturing .btn-xhs-cta {
   display: none !important;
 }
 /* Disable tag fade-in animation during capture — html2canvas reads computed
